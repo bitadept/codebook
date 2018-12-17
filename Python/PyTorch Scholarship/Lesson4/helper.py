@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+plt.style.use(['dark_background'])
 import numpy as np
 from torch import nn, optim
 from torch.autograd import Variable
